@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://j3gmoheoj8g3"]
+
+[ext_resource type="PackedScene" uid="uid://brlbh07bs2t7v" path="res://Scenes/Actors/player/blueboy.tscn" id="1_ylp77"]
+[ext_resource type="Resource" uid="uid://rm1n5cwdpn5t" path="res://Scripts/Resources/base-move.tres" id="2_8ux4v"]
+
+[node name="playtest" type="Node2D"]
+
+[node name="blueboy" parent="." instance=ExtResource("1_ylp77")]
+movedata = ExtResource("2_8ux4v")
+
+[node name="Camera2D2" type="Camera2D" parent="blueboy"]
+zoom = Vector2(3, 3)
