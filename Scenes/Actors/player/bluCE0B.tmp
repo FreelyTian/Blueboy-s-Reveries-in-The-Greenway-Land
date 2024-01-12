@@ -221,6 +221,7 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id="Animation_vuc03"]
 resource_name = "idle_l"
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -272,6 +273,7 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id="Animation_hul2q"]
 resource_name = "idle_r"
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -323,6 +325,7 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id="Animation_5nofn"]
 resource_name = "idle_u"
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -374,6 +377,7 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id="Animation_v3gxj"]
 resource_name = "idle_d"
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -515,7 +519,7 @@ script = ExtResource("1_xv0hi")
 movedata = ExtResource("2_2jk87")
 
 [node name="mesh" type="Sprite2D" parent="."]
-texture = ExtResource("5_mdgu3")
+texture = ExtResource("2_3u3yf")
 hframes = 4
 vframes = 2
 
