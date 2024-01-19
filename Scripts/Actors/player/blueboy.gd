@@ -18,9 +18,8 @@ func move():
 	_direction = Input.get_vector("a", "d", "w", "s").normalized()
 	_last_direction = _direction if _direction != Vector2.ZERO else _last_direction_bkp
 	if _direction != Vector2.ZERO:
-		set_walking(true)
 		update_blend_pos()
-		#animtree.active = true
+		set_walking(true)
 		do_vel(movedata.accel)
 	else:
 		set_walking(false)
@@ -28,8 +27,10 @@ func move():
 	
 		
 func do_vel(factor):
+	
 	velocity.x = lerp(velocity.x, _direction.x * movedata.SPEED, factor)
-	velocity.y = lerp(velocity.y, _direction.y * movedata.SPEED, factor)	
+	velocity.y = lerp(velocity.y, _direction.y * movedata.SPEED, factor)
+	
 
 func set_walking(value):
 	animtree.set("parameters/conditions/is_walking", value)
