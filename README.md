@@ -4,7 +4,7 @@
 game que eu mexo pra passar o tempo e treinar um pouco
 
 # Resumo
-A ideia aqui é satirizar muitos conceitos do mundo dos games criando uma gameplay divertida com uma quebra sutil da 4ª parede, no jogo iremos encontrar vários personagens comentando sobre coisas que pra nós são só mecânicas que as vezes nem percebemos, mas pra eles são bem estranhas e no nosso mundo também seria. O jogo contará com um sistema de batalhas em turno clássico com meus toques de originalidade e story-telling incluído nos diálogos de um jeito que você ainda não viu por aí.
+A ideia aqui é satirizar muitos conceitos do mundo dos games criando uma gameplay divertida com uma quebra sutil da 4ª parede, no jogo iremos encontrar vários personagens comentando sobre coisas que pra nós são só mecânicas que as vezes nem percebemos, mas pra eles são bem estranhas e no nosso mundo também seriam. O jogo contará com um sistema de batalhas em turno clássico com meus toques de originalidade e story-telling incluído nos diálogos de um jeito que você ainda não viu por aí.
 
-# Data?
-No momento data não é nem um assunto que eu sequer ligo, afinal como já disse é meu jogo passatempo e até o momento não tem motivos pra ter pressa.
+# Progresso
+No momento estou desenhando assets e polindo coisas básicas. Meu próximo objetivo é construir a cidade inicial, mas data não é nem um assunto que eu sequer ligo, afinal como já disse é meu jogo passatempo e até o momento não tem motivos pra ter pressa.
