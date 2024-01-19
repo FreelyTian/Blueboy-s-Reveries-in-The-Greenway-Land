@@ -5,5 +5,5 @@
 [resource]
 script = ExtResource("1_6h437")
 SPEED = 90.0
-accel = 0.2
+accel = 0.07
 fric = 0.2
