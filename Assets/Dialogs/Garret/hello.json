@@ -1,10 +1,66 @@
 [
-	{
-		"name":"Garret",
-		"text":"Hello..."
-	},
-	{
-		"name":"Garret",
-		"text":"Man, you got some really big hands don't ya?"
-	},
+  {
+    "name": "Garret",
+    "text": "Hello...",
+    "next": null,
+    "choices": [],
+    "emotion": "neutro"
+  },
+  {
+    "name": "Garret",
+    "text": "Man, you got some really big hands don't ya?",
+    "next": null,
+    "choices": [],
+    "emotion": "surprised"
+  },
+  {
+    "name": "Garret",
+    "text": "I mean, I'm not saying that's a bad thing, but it's just... you know... noticeable.",
+    "next": null,
+    "choices": [],
+    "emotion": ""
+  },
+  {
+    "name": "Garret",
+    "text": "Hey, don't you think it's weird how this place is empty?",
+    "choices": [
+      {
+        "text": "Yeah, it's pretty weird.",
+        "next": 4
+      },
+      {
+        "text": "I don't know, I think it's kind of nice.",
+        "next": 6
+      }
+    ],
+    "emotion": ""
+  },
+  {
+    "name": "Garret",
+    "text": "I mean, it's like, we're the only ones here. It's like a ghost town or something.",
+    "next": 6,
+    "choices": [],
+    "emotion": "surprised"
+  },
+  {
+    "name": "Garret",
+    "text": "Are you lonely or something?",
+    "next": "end",
+    "choices": [],
+    "emotion": "curious"
+  },
+  {
+    "name": "Garret",
+    "text": "That's the life, huh? Just two of us, and no one else.",
+    "next": null,
+    "choices": [],
+    "emotion": "neutro"
+  },
+  {
+    "name": "Garret",
+    "text": "At least by now...",
+    "next": "end",
+    "choices": [],
+    "emotion": "wink"
+  }
 ]
