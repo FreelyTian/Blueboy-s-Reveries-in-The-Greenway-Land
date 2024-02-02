@@ -510,15 +510,14 @@ transitions = ["Start", "idle", SubResource("AnimationNodeStateMachineTransition
 radius = 2.0
 height = 10.0
 
-[node name="blueboy" type="CharacterBody2D"]
+[node name="blueboy" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_xv0hi")
 movedata = ExtResource("2_2jk87")
 
 [node name="mesh" type="Sprite2D" parent="."]
-texture = ExtResource("5_mdgu3")
+texture = ExtResource("2_3u3yf")
 hframes = 4
 vframes = 2
-frame = 1
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="mesh"]
 reset_on_save = false
