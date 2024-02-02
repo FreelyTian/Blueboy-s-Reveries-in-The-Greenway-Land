@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://dhsvkqv630wkd"]
+[gd_scene load_steps=5 format=3 uid="uid://dhsvkqv630wkd"]
 
 [ext_resource type="Texture2D" uid="uid://bpvhef867lcja" path="res://Assets/Chars/village-folks-01/Garret.png" id="1_njfle"]
+[ext_resource type="Script" path="res://Scripts/Actors/village-folks/garret.gd" id="1_yinf5"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7yrmf"]
 radius = 4.0
@@ -9,6 +10,7 @@ height = 8.0
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gewn8"]
 
 [node name="Garret" type="CharacterBody2D"]
+script = ExtResource("1_yinf5")
 
 [node name="mesh" type="Sprite2D" parent="."]
 texture = ExtResource("1_njfle")
@@ -23,3 +25,5 @@ shape = SubResource("CapsuleShape2D_7yrmf")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DialogCaller"]
 position = Vector2(0, 8)
 shape = SubResource("CapsuleShape2D_gewn8")
+
+[connection signal="body_entered" from="DialogCaller" to="." method="_on_dialog_caller_body_entered"]
